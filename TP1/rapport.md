@@ -212,19 +212,19 @@ Avec repetition_penalty=2.0, les répétitions sont nettement réduites : la phr
 
 Question 5.e : 
 
-![alt text](image10.png)
+![alt text](img/image10.png)
 
 Avec une température basse, le texte est très cohérent mais peu diversifié et parfois répétitif. Une température élevée augmente la diversité et la créativité, mais peut produire des phrases moins précises ou légèrement moins naturelles. Le compromis consiste donc à équilibrer stabilité/cohérence et variété/innovation dans la génération.
 
 Question 5.f : 
 
-![alt text](image11.png)
+![alt text](img/image11.png)
 
 Le beam search produit un texte plus probable globalement que le greedy ou le sampling, car il évalue plusieurs séquences candidates avant de choisir la meilleure. En conséquence, les phrases sont souvent plus génériques et moins créatives, reflétant des continuations courantes et sûres. Comparé au sampling, le texte est moins divers et moins surprenant, tandis que comparé au greedy, il reste cohérent tout en réduisant légèrement les répétitions.
 
 Question 5.g : 
 
-![alt text](image12.png)
+![alt text](img/image12.png)
 
 Avec l’augmentation du nombre de beams de 5 à 20, le temps de génération augmente (2,34 s → 4,40 s) car le modèle doit maintenir et évaluer plus de séquences candidates à chaque étape. Les phrases générées restent très cohérentes et grammaticales, mais peu variées et relativement génériques, même avec plus de beams. Cela montre que beam search maximise la probabilité globale tout en sacrifiant la diversité, et que l’exploration de plusieurs chemins augmente le coût computationnel.
 
