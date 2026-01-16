@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q1",
+    "question": "Quels sont les sujets de PFE supplémentaires proposés par Luca Benedetto ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q2",
+    "question": "Comment valider une UE ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q3",
+    "question": "Qui a animé le webinaire sur l'Équité, la Diversité et l'Inclusion ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q4",
+    "question": "Quelles sont les conditions pour effectuer un séjour à l'étranger dans le cadre d'une césure ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q5",
+    "question": "À quelle adresse mail faut-il envoyer une réclamation sur les listes électorales provisoires ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q6",
+    "question": "Que se passe-t-il si un étudiant a un comportement non satisfaisant dans un programme extérieur ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q7",
+    "question": "Quels sont les deux projets de PFE décrits dans le mail de Julien Romero ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q8",
+    "question": "Quels types d'actes sont prohibés au sein de l'établissement selon le règlement intérieur ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q9",
+    "question": "Quels sont les collèges électoraux concernés par les élections au Conseil d'administration ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q10",
+    "question": "Comment est composé le jury des études pour le cycle ingénieur ?",
+    "expected_doc_type": "admin_pdf"
+  },
+  {
+    "id": "q11",
+    "question": "Quelles sont les sept institutions partenaires mentionnées par Alice Galliou ?",
+    "expected_doc_type": "email"
+  },
+  {
+    "id": "q12",
+    "question": "Quelles sont les modalités de consultation électronique du Conseil d'École ?",
+    "expected_doc_type": "admin_pdf"
+  }
+]
