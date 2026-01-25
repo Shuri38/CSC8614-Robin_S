@@ -80,7 +80,7 @@ C'est la réponse qu'on a bien défini dans stubs.py
 
 Cas avec escalade : 
 
-![alt text](images/image13.png)
+![alt text](images/image14.png)
 
 {"run_id": "24c24169-7aa4-401e-9351-0108a972c6b1", "ts": "2026-01-25T10:56:03.595664Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E02"}}
 {"run_id": "24c24169-7aa4-401e-9351-0108a972c6b1", "ts": "2026-01-25T10:56:19.399506Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "escalate", "category": "admin", "priority": 5, "risk_level": "high", "needs_retrieval": true, "retrieval_query": "Historique des politiques de sécurité et procédures à suivre en cas d'activité suspecte sur les comptes des utilisateurs.", "rationale": "Mail demande d'informations personnelles, potentiellement frauduleux."}}}
@@ -91,11 +91,11 @@ Cas avec escalade :
 
 Cas avec ignore : 
 
-![alt text](images/image14.png)
+![alt text](images/image15.png)
 
 # Exercice 10
 
-![alt text](images/image15.png)
+![alt text](images/image16.png)
 
 runs : 
 
@@ -115,9 +115,9 @@ Lors de l’exécution du graphe minimal, le nœud classify_email a détecté le
 
 # Exercice 11
 
-![alt text](images/image15.png)
+![alt text](images/image17.png)
 
-![alt text](images/image16.png)
+![alt text](images/image18.png)
 
 L’agent a été exécuté sur 14 emails de test représentant différents scénarios. L’analyse des trajectoires et des décisions permet de tirer plusieurs constats :
 
@@ -131,7 +131,7 @@ Aucune trajectoire n’a nécessité de réécriture de requête ni de retrieval
 
 Cas 1 : 
 
-![alt text](images/image17.png)
+![alt text](images/image19.png)
 
 Le traitement de l’email E05 est relativement linéaire et exemplifie un cas simple. L’agent démarre avec le nœud classify_email, qui décide un intent=reply avec un risque faible (risk_level=low). Le nœud maybe_retrieve est évalué mais marqué skipped, car aucun retrieval n’était nécessaire. Le nœud draft_reply génère le draft initial avec une citation unique. Ensuite, check_evidence valide que les citations sont correctes et qu’aucune récupération supplémentaire n’est requise (retrieval_attempts=1). Enfin, le nœud finalize conclut le run avec final_kind=reply.
 
@@ -139,7 +139,7 @@ Nodes visités : classify_email → maybe_retrieve (skipped) → draft_reply →
 
 Cas 2 :
 
-![alt text](images/image18.png)
+![alt text](images/image20.png)
 
 Le traitement de l’email E13 reste un reply, mais la trajectoire illustre la complexité du suivi pour un email de recherche. Après le nœud classify_email, la décision initiale est intent=reply avec risk_level=low. Le nœud maybe_retrieve est également skipped, car l’email ne nécessite pas de récupération supplémentaire. Le nœud draft_reply génère un draft avec une citation, suivi de check_evidence qui valide l’exactitude de la citation et note un retrieval_attempts=1.
 
@@ -196,13 +196,13 @@ flowchart TD
 
 ## Résulats
 
-![alt text](images/image16.png)
+![alt text](images/image18.png)
 
 L’analyse de batch_results.md montre que la majorité des emails sont traités avec l’intent reply, tandis que les cas escalate concernent uniquement les emails sensibles. Les emails ignore sont correctement filtrés. Les appels aux tools RAG restent rares, et un seul retrieval suffit généralement. Les trajectoires sont majoritairement linéaires (classify_email → draft_reply → check_evidence → finalize), ce qui indique que l’agent adapte son parcours selon la complexité des emails.
 
 ## Trajectoires
 
-![alt text](images/image19.png)
+![alt text](images/image21.png)
 
 L’email E11 a été classé par classify_email avec l’intent reply et un risque faible. Le nœud maybe_retrieve a été sauté car aucun retrieval n’était nécessaire. Lors de draft_reply, l’agent est passé en safe mode à cause de citations invalides. Ensuite, check_evidence a confirmé que les preuves étaient insuffisantes (evidence_ok = false) après un seul essai de retrieval. La trajectoire montre donc un parcours simple mais avec activation du safe mode pour garantir la sécurité des réponses.
 
