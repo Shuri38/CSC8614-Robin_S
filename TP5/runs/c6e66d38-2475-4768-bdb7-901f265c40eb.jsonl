@@ -1,0 +1,4 @@
+{"run_id": "c6e66d38-2475-4768-bdb7-901f265c40eb", "ts": "2026-01-22T10:08:13.387574Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E09"}}
+{"run_id": "c6e66d38-2475-4768-bdb7-901f265c40eb", "ts": "2026-01-22T10:09:32.476021Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ask_clarification", "category": "teaching", "priority": 3, "risk_level": "med", "needs_retrieval": false, "retrieval_query": "", "rationale": "Asking for clarification on the modalities of validation for UE 10 of TSP"}}}
+{"run_id": "c6e66d38-2475-4768-bdb7-901f265c40eb", "ts": "2026-01-22T10:09:32.575858Z", "event": "node_start", "data": {"node": "stub_ask_clarification"}}
+{"run_id": "c6e66d38-2475-4768-bdb7-901f265c40eb", "ts": "2026-01-22T10:09:32.576058Z", "event": "node_end", "data": {"node": "stub_ask_clarification", "status": "ok"}}

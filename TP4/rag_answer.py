@@ -19,7 +19,7 @@ CHROMA_DIR = os.path.join("TP4", "chroma_db")
 COLLECTION_NAME = "tp4_rag"
 
 # --- PARAMÈTRES COMPLÉTÉS ---
-EMBEDDING_MODEL = "nomic-embed-text"
+EMBEDDING_MODEL = "nomic-embed-text-v2-moe"
 LLM_MODEL = "mistral"
 TOP_K = 10            # On augmente k pour capturer l'info même si elle est bruitée
 PORT = "11434"        # 11434 par défaut

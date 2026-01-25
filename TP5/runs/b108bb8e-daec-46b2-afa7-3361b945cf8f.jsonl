@@ -1,0 +1,6 @@
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:23.348787Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E01"}}
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:55.537296Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Email concernant une information administrative sur les travaux au campus, pas d'informations nécessaires de notre part."}}}
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:55.670033Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:55.670672Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:55.671045Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "b108bb8e-daec-46b2-afa7-3361b945cf8f", "ts": "2026-01-25T11:31:55.671124Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "ignore"}}

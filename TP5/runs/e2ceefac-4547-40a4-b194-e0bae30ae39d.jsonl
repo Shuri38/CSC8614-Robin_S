@@ -1,0 +1,6 @@
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:12.171247Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E09"}}
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:46.912740Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "PDF du règlement intérieur de TSP", "rationale": "Réponse requiert des documents annexes."}}}
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:47.028829Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:52.939721Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "736dd12eb587", "latency_ms": 5907, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:52.940676Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "e2ceefac-4547-40a4-b194-e0bae30ae39d", "ts": "2026-01-22T10:53:52.942111Z", "event": "node_start", "data": {"node": "draft_reply"}}

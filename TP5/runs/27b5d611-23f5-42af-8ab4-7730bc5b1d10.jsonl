@@ -1,0 +1,6 @@
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:15.136370Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E03"}}
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:39.853905Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "research", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Email concernant un projet, demande d'avis non critique."}}}
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:39.994510Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:39.994770Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:39.995531Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "27b5d611-23f5-42af-8ab4-7730bc5b1d10", "ts": "2026-01-25T11:32:39.995592Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "ignore"}}

@@ -1,0 +1,11 @@
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:19.875472Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E02"}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:46.427208Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "med", "needs_retrieval": true, "retrieval_query": "Historique des politiques d'identification et de sécurité pour TSP.", "rationale": "Nécessité de vérification avant de fournir des informations personnelles."}}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:46.537568Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:52.509171Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "baf6def99231", "latency_ms": 5969, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:52.511345Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:30:52.513847Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:31:29.388601Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:31:29.502358Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:31:29.504414Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:31:29.512643Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "a37bb9dc-9d70-46bc-a70b-1c63007f7cfd", "ts": "2026-01-25T10:31:29.513731Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

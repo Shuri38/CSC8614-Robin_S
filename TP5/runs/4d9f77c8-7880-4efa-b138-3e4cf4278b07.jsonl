@@ -1,0 +1,7 @@
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:17.235205Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E09"}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:40.835732Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "teaching", "priority": 2, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Règlement intérieur de TSP UE 10 de TSP", "rationale": "Demande d'informations administratives sur la validation d'un UE spécifique."}}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:40.908564Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:46.179368Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "56e78e59afb1", "latency_ms": 5269, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:46.181904Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:46.184860Z", "event": "node_start", "data": {"node": "stub_reply"}}
+{"run_id": "4d9f77c8-7880-4efa-b138-3e4cf4278b07", "ts": "2026-01-22T10:41:46.184923Z", "event": "node_end", "data": {"node": "stub_reply", "status": "ok"}}

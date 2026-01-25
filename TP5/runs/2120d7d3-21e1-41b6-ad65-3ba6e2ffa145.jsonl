@@ -1,0 +1,10 @@
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:32:59.211403Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E05"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:15.917215Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Demande de retour rapide sur la situation actuelle."}}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:15.963246Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:15.967551Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:15.969312Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:35.235011Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:35.357097Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:35.367919Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:35.383221Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "2120d7d3-21e1-41b6-ad65-3ba6e2ffa145", "ts": "2026-01-25T11:33:35.384361Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

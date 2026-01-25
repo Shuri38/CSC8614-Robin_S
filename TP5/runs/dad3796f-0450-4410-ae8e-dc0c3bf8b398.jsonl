@@ -1,0 +1,6 @@
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:40.000465Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E04"}}
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:59.092207Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ask_clarification", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Le mail demande des informations précises pour finaliser l'attestation, il faut donc confirmer les dates et le nom de l’organisme d’accueil."}}}
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:59.192406Z", "event": "node_start", "data": {"node": "stub_ask_clarification"}}
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:59.197248Z", "event": "node_end", "data": {"node": "stub_ask_clarification", "status": "ok"}}
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:59.198709Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "dad3796f-0450-4410-ae8e-dc0c3bf8b398", "ts": "2026-01-25T11:32:59.198835Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "clarification"}}

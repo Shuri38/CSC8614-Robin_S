@@ -1,0 +1,6 @@
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:54:53.665764Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E07"}}
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:55:40.977494Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "other", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Une réponse standard est appropriée."}}}
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:55:41.076112Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:55:41.076248Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:55:41.076902Z", "event": "node_start", "data": {"node": "stub_reply"}}
+{"run_id": "ea315174-53a3-4d65-a95c-bfda9aed250c", "ts": "2026-01-22T09:55:41.076966Z", "event": "node_end", "data": {"node": "stub_reply", "status": "ok"}}

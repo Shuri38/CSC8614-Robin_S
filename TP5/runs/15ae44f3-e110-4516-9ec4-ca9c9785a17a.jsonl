@@ -1,0 +1,8 @@
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:28:48.577172Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.909520Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Réponse standard pour des questions administratives courantes."}}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.984013Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.985382Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.987604Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.987711Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.988076Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "15ae44f3-e110-4516-9ec4-ca9c9785a17a", "ts": "2026-01-23T09:29:12.988188Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}

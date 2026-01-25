@@ -1,0 +1,6 @@
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:30.558877Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E02"}}
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:56.373241Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "escalate", "category": "admin", "priority": 5, "risk_level": "high", "needs_retrieval": true, "retrieval_query": "Historique des politiques d'authentification et vérification de compte pour le compte de l'utilisateur.", "rationale": "Le mail demande des informations personnelles qui suggèrent une tentative de phishing."}}}
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:56.417719Z", "event": "node_start", "data": {"node": "stub_escalate"}}
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:56.417877Z", "event": "node_end", "data": {"node": "stub_escalate", "status": "ok"}}
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:56.418217Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "409edd52-6817-4979-b5e5-72ba0e332463", "ts": "2026-01-25T10:50:56.418298Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "handoff"}}

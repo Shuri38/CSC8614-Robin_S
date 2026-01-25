@@ -1,0 +1,6 @@
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:35.487607Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:57.447626Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "teaching", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Modification de cours en distanciel annoncée, pas d'informations supplémentaires nécessaires."}}}
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:57.524248Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:57.524474Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:57.527073Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "73222823-a52e-429e-a634-4ddcfc4e1eed", "ts": "2026-01-25T11:33:57.527159Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "ignore"}}

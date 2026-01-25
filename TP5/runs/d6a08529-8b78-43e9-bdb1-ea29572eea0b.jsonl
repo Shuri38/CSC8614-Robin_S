@@ -1,0 +1,7 @@
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:58:46.064274Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E09"}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:09.623466Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Règlement intérieur de TSP UE 10 de TSP", "rationale": "Le mail demande des informations administratives et nécessite la recherche d'un document."}}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:09.729289Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:14.855992Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "56e78e59afb1", "latency_ms": 5124, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:14.857173Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:14.858928Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "d6a08529-8b78-43e9-bdb1-ea29572eea0b", "ts": "2026-01-22T10:59:41.144211Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "invalid_json"}}

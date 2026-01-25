@@ -1,0 +1,10 @@
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:40:26.556645Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E06"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:40:50.699063Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "teaching", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Email concernant un changement de cours en distanciel, priorité normale."}}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:40:50.751012Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:40:50.751874Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:40:50.753371Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:41:04.790775Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:41:04.816620Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:41:04.816777Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:41:04.818504Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "53b8f08a-e622-4ede-ad65-0356ec3180a4", "ts": "2026-01-25T10:41:04.818605Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}

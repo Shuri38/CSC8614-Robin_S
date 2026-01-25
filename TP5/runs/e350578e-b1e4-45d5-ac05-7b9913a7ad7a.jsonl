@@ -1,0 +1,16 @@
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:42.576230Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.338321Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Reponse simple requise."}}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.351675Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.351865Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.352802Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.352942Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.353409Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.353512Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 1}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:09:56.354149Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.832935Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842020Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842158Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842514Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842582Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842863Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e350578e-b1e4-45d5-ac05-7b9913a7ad7a", "ts": "2026-01-23T08:10:00.842931Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 2}}

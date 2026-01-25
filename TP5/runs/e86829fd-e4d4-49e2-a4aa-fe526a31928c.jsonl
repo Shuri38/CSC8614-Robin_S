@@ -1,0 +1,833 @@
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:02:47.368936Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.186628Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 2, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Reponse requise pour informer sur les modalités de validation."}}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.258271Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.260160Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.260609Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.260696Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.260951Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.261013Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:11.262361Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.712264Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.746593Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.746751Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.748559Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.748623Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.748880Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.749200Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:16.750988Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.490639Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ document"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.556112Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.556275Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.561129Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.561209Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.561517Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.561763Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:19.564724Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.728595Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.743779Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.743961Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.744443Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.744552Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.744886Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.744976Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:23.745462Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.484515Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.500485Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.500651Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.501153Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.501217Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.501482Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.501552Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:26.502599Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.538970Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.548087Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.548569Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.549056Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.549136Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.549478Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.549559Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:29.550793Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.608890Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.617539Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.617776Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.618363Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.618482Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.618962Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.619151Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:31.620418Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.714421Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.730680Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.730797Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.731925Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.732025Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.732345Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.732445Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:33.734028Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.376404Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur Télécom-sudparis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.389355Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.389547Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.391121Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.391280Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.391897Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.392066Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:36.393035Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.889482Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.898631Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.898768Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.899095Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.899160Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.899405Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.899471Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:38.900038Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.313651Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ PDF règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.322748Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.322916Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.323463Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.323568Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.324020Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.324166Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:41.325120Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.620181Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur details"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.628718Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.628879Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.629256Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.629382Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.630788Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.630999Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:43.632229Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.699512Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.709853Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.709999Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.710371Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.710432Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.710673Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.710736Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:46.711215Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.316292Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ PDF"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.332814Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.333397Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.334926Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.335175Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.336699Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.337018Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:49.340185Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.159362Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.168294Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.168472Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.169959Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.170138Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.171578Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.171734Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:52.172218Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.005283Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.039577Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.040530Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.041962Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.042049Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.042326Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.042414Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:55.044180Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.582450Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.612530Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.613195Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.615835Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.618029Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.620453Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.620687Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:03:58.622623Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.346689Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.465254Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.467690Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.468520Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.468687Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.472521Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.473189Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:02.479787Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.564870Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.640894Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.641128Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.641691Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.641949Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.652285Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.652811Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:06.657100Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.562563Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom Paris Sud"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.745187Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.745478Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.745918Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.745984Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.746234Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.746311Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:14.763636Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.629610Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ PDF règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.712305Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.712517Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.713001Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.713100Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.713502Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.713626Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:19.716986Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.277693Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.430116Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.433527Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.438379Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.439191Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.441379Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.441743Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:30.446763Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.761591Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur details"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.799306Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.799468Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.800349Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.800424Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.802139Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.802262Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:35.805129Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.798214Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validations modalités UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.855070Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.855237Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.855671Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.855737Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.862704Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.862825Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:39.863428Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.821541Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.852077Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.852298Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.853835Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.853910Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.854192Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.854260Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:43.856995Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.542693Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ document interne"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.606729Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.607968Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.612332Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.612679Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.613132Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.613230Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:47.616551Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.157517Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.548479Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.550175Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.552407Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.552999Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.553537Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.554422Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:04:54.560541Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.778008Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.868440Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.868668Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.869229Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.869307Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.869617Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.869757Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:01.873787Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.826760Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.865180Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.865328Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.865687Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.865747Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.865995Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.866063Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:05.868812Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:08.991678Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.021027Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.021776Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.022782Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.022856Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.023196Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.023667Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:09.025174Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.568800Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UEXYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581034Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581141Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581454Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581520Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581787Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.581858Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:12.582720Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.161970Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.168538Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.169409Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.169722Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.169782Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.170603Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.170854Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:15.172196Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.619680Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.631577Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.631737Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.632295Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.632396Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.632814Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.632937Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:17.633730Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.022901Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.032685Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.032859Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.033494Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.033632Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.034186Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.034352Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:20.035394Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.526045Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.532709Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.532987Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.533664Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.533747Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.534083Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.534329Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:22.535347Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.684637Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.695816Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.695940Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.696281Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.696343Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.696597Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.696661Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:24.697155Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.196522Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.225692Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.225938Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.226629Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.226743Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.227329Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.227458Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:27.229382Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.157514Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Telecom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.176224Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.176395Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.177156Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.177248Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.177645Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.177741Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:30.179236Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.641387Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Telecom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.648345Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.648463Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.648788Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.648845Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.649092Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.649157Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:32.650029Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.064942Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Télécom SudParis PDF"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.073600Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.073746Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.074080Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.074140Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.074392Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.074461Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:35.075192Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.948489Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ Telecom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.958450Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.958556Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.958874Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.958931Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.959205Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.959269Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:36.960082Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.197974Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.214305Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.214452Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.214825Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.214890Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.215153Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.215224Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:39.215794Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.428141Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.437518Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.437636Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.437937Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.437997Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.438236Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.438298Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:41.438715Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.751861Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.762330Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.762559Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.763005Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.763180Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.763562Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.763677Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:43.764418Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.113367Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.122288Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.122473Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.123448Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.123590Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.124170Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.124431Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:46.126829Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.573358Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom UE"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.580954Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.581053Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.581336Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.581397Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.581637Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.581704Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:48.582263Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.621496Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.631882Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.632182Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.633001Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.633117Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.633686Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.633811Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:50.634868Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.146164Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation modalités UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.155610Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.155792Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.156199Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.156261Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.156517Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.156582Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:53.157250Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.506346Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.512614Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.512748Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.513181Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.513288Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.513646Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.513740Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:55.514414Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.323120Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.332135Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.332370Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.332918Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.333032Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.333516Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.333642Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:05:58.334593Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.561149Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.569495Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.569651Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.570007Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.570070Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.570317Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.570385Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:00.571045Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.478613Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom-SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.488688Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.488871Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.489355Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.489444Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.489823Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.489919Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:03.490773Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.862241Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.868608Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.868714Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.869032Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.869111Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.869402Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.869475Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:05.870094Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.274613Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.295778Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.296142Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.297143Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.297258Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.297628Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.297741Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:08.298685Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.557749Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.575976Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.576147Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.576558Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.576618Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.576874Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.576948Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:10.577830Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.036007Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.057465Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.058499Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.061374Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.061473Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.061798Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.061881Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:13.063898Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.109259Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.226031Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.226227Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.226794Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.226859Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.227116Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.227185Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:16.228255Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.682742Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ PDF règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.691992Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.692169Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.692549Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.692611Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.692879Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.692947Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:18.693914Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.289679Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur détails"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.294962Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.295035Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.295295Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.295347Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.295575Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.295634Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:21.296039Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.693006Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.700041Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.700190Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.701116Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.701221Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.701680Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.701800Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:23.702741Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.870146Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.876514Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.876604Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.876876Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.876933Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.877177Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.877237Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:26.878103Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.127214Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.140120Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.140288Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.140685Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.140750Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.143542Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.143648Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:29.145541Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.598501Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.610304Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.610563Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.611013Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.611104Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.611796Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.611894Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:31.612646Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.914066Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ document"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.919660Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.919744Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.920001Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.920056Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.920634Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.920693Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:33.921583Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.199020Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.209827Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.209922Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.210224Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.210280Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.210522Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.210590Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:36.211151Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.780149Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.789408Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.789500Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.789780Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.789835Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.790076Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.790157Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:38.791413Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.211729Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités de validation UE XYZ"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.229024Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.229260Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.229795Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.229864Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.230289Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.230384Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:41.231885Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.335229Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ documents"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.359774Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.359975Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.361541Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.361641Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.363419Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.363497Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:43.369706Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.161577Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.191881Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.192068Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.192510Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.192591Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.192869Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.192939Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:46.195671Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.629077Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.646865Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.647151Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.647758Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.647851Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.648475Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.648619Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:48.649464Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.656198Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.669904Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.669993Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.670275Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.670338Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.670697Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.670781Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:51.671286Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.680717Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Télécom SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.784766Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.784979Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.788352Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.788542Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.789039Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.795776Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:54.800809Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.159277Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.193772Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.195259Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.197200Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.197359Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.198515Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.198927Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:06:59.201213Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.627894Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.647656Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.647839Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.648307Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.648380Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.648681Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.648755Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:01.650714Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.876420Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.901377Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.901576Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.902124Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.902202Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.902540Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.902623Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:04.903335Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.823553Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.836032Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.836189Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.836589Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.836657Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.836937Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.837018Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:07.837713Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.454291Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460004Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460102Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460416Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460478Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460721Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.460784Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:10.461218Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.231971Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.246858Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.247079Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.247632Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.247730Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.248111Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.248221Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:13.249296Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.839656Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.903904Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.904169Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.904740Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.904825Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.905226Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.905344Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:15.907422Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.088535Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.095764Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.095864Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.096192Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.096254Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.096526Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.096599Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:19.097224Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.517655Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation modalités UE XYZ dans règlement"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.528482Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.528803Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.529739Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.529860Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.530451Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.530613Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:21.531369Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.209090Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.219444Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.219621Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.220204Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.220316Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.220797Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.220915Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:24.221875Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.684676Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.691345Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.691493Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.692028Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.692138Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.692597Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.692711Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:26.693635Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.980302Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ régulier"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.989051Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.989216Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.989737Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.989846Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.990322Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.990447Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:28.991455Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.177224Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ document"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.193795Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.194020Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.194559Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.194643Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.194936Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.195012Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:31.195646Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.471987Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.488027Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.488225Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.488832Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.488941Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.489418Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.489534Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:33.491105Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.728053Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation modalités UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.740625Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.740842Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.741481Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.741607Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.742085Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.742202Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:35.743092Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.397607Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.408001Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.408231Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.408827Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.408965Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.409367Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.409461Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:38.410292Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.050467Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.061984Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.062228Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.062805Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.062908Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.063334Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.063472Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:41.064434Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.581877Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.591590Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.591840Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.592374Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.592479Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.593432Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.593579Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:43.594404Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.344358Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.354649Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.354795Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.355274Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.355366Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.355770Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.355872Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:46.357576Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.159433Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom-SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.166226Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.166353Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.166800Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.166891Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.167293Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.167399Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:49.168097Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.608920Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ Télécom-SudParis"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.615797Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.615919Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.616732Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.616823Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.617223Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.617323Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:51.618100Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.160440Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.174065Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.174229Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.174661Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.174729Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.175018Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.175086Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:54.176009Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.656459Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.664285Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.664612Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.665557Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.665701Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.666264Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.666401Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:56.667428Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.546370Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554152Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554259Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554585Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554650Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554922Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.554988Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:07:59.555603Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.266726Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.276115Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.276274Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.276748Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.276833Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.277200Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.277308Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:02.278046Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.744938Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ réglement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.799945Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.800143Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.800598Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.800662Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.800923Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.800992Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:04.804450Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.210438Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.218909Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.219180Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.219692Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.219796Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.220704Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.220924Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:07.222083Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.116994Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validations UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.123215Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.123358Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.123749Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.123819Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.124151Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.124263Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:10.124885Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.699423Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Modalités validation UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.709791Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.710005Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.710593Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.710711Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.711133Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.711341Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:12.712865Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.188737Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ dans règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.207130Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.207296Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.207677Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.207749Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.208039Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.208117Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:15.208740Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.740702Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validations UE XYZ règlement intérieur"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.768260Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.770609Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.774133Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.777093Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.782716Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.783125Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:17.787023Z", "event": "node_start", "data": {"node": "rewrite_query"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.716069Z", "event": "node_end", "data": {"node": "rewrite_query", "status": "ok", "q2": "Validation UE XYZ règlement intérieur Télécom"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.735881Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.736127Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.736701Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.736809Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.737200Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.737313Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": false, "last_draft_had_valid_citations": false, "retrieval_attempts": 0}}
+{"run_id": "e86829fd-e4d4-49e2-a4aa-fe526a31928c", "ts": "2026-01-23T08:08:20.738465Z", "event": "node_start", "data": {"node": "rewrite_query"}}

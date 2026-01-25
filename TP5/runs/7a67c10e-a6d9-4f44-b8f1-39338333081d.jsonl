@@ -1,0 +1,4 @@
+{"run_id": "7a67c10e-a6d9-4f44-b8f1-39338333081d", "ts": "2026-01-22T11:01:36.434726Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "7a67c10e-a6d9-4f44-b8f1-39338333081d", "ts": "2026-01-22T11:01:53.462664Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "ignore", "category": "other", "priority": 1, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Test safe mode, pas d'action requise."}}}
+{"run_id": "7a67c10e-a6d9-4f44-b8f1-39338333081d", "ts": "2026-01-22T11:01:53.550646Z", "event": "node_start", "data": {"node": "stub_ignore"}}
+{"run_id": "7a67c10e-a6d9-4f44-b8f1-39338333081d", "ts": "2026-01-22T11:01:53.550854Z", "event": "node_end", "data": {"node": "stub_ignore", "status": "ok"}}

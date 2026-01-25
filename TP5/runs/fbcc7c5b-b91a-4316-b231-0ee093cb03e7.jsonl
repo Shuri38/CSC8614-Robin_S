@@ -1,0 +1,6 @@
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:10:54.979591Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:11:19.050855Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "admin", "priority": 3, "risk_level": "low", "needs_retrieval": false, "retrieval_query": "", "rationale": "Demande claire sur la validation d’UE, sans indication urgente."}}}
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:11:19.196412Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:11:19.196794Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "skipped"}}
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:11:19.198427Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "fbcc7c5b-b91a-4316-b231-0ee093cb03e7", "ts": "2026-01-22T11:11:19.199269Z", "event": "node_end", "data": {"node": "draft_reply", "status": "safe_mode", "reason": "no_evidence"}}

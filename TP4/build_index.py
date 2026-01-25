@@ -29,7 +29,7 @@ COLLECTION_NAME = "tp4_rag"
 
 # Embeddings via Ollama (local ou tunnel cluster)
 # Exemple de modèle d'embedding: "nomic-embed-text"
-EMBEDDING_MODEL = "nomic-embed-text"  # Il est recommendé de prendre un modèle d'embedding (à chercher sur Ollama directement)
+EMBEDDING_MODEL = "nomic-embed-text-v2-moe"  # Il est recommendé de prendre un modèle d'embedding (à chercher sur Ollama directement)
 PORT = "11434"  # 11434 par défaut
 
 # Chunking (à ajuster)

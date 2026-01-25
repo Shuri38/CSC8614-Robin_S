@@ -1,0 +1,34 @@
+---
+email_id: E01
+from: "Isabelle Verzala <isabelle.verzala@imtbs-tsp.eu>"
+date: "2026-01-21"
+subject: "Accès au campus Le vendredi 23 janvier, entre 7h et 8h"
+---
+
+CORPS:
+<<<
+Bonjour
+
+Ce vendredi 23 janvier, entre 7h et 8h, des travaux auront lieu à l’entrée du campus.
+
+
+
+Durant ce créneau, l’accès au parking visiteurs sera fermé.
+L’entrée et la sortie du campus se feront en sens unique.
+
+
+
+Le vigile sera chargé de la gestion de la circulation.
+Merci de rester à distance de la barrière dans l’attente de son autorisation,
+et de circuler lentement et avec prudence.
+
+
+
+Merci de votre compréhension.
+>>>
+
+ATTENDU:
+- intent: ignore
+- Circuler lentement avec prudence
+- Attendre l'autorisation du vigile
+

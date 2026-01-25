@@ -1,0 +1,11 @@
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:43:44.174121Z", "event": "node_start", "data": {"node": "classify_email", "email_id": "E11"}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:45:11.540416Z", "event": "node_end", "data": {"node": "classify_email", "status": "ok", "decision": {"intent": "reply", "category": "teaching", "priority": 2, "risk_level": "low", "needs_retrieval": true, "retrieval_query": "Règlement intérieur de l’UE XYZ", "rationale": "L'utilisateur demande des informations sur la validation d'une unité d'enseignement spécifique, ce qui nécessite des documents supplémentaires pour répondre."}}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:45:11.834586Z", "event": "node_start", "data": {"node": "maybe_retrieve"}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:45:37.029792Z", "event": "tool_call", "data": {"tool": "rag_search", "args_hash": "c71d0b55a39a", "latency_ms": 25185, "status": "ok", "k": 5, "n_docs": 5}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:45:37.047106Z", "event": "node_end", "data": {"node": "maybe_retrieve", "status": "ok", "n_docs": 5}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:45:37.056513Z", "event": "node_start", "data": {"node": "draft_reply"}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:48:29.082462Z", "event": "node_end", "data": {"node": "draft_reply", "status": "ok", "n_citations": 1}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:48:29.197905Z", "event": "node_start", "data": {"node": "check_evidence"}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:48:29.198997Z", "event": "node_end", "data": {"node": "check_evidence", "status": "ok", "evidence_ok": true, "last_draft_had_valid_citations": true, "retrieval_attempts": 1}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:48:29.224261Z", "event": "node_start", "data": {"node": "finalize"}}
+{"run_id": "e7a927bb-ee65-4c54-bead-2822640685f0", "ts": "2026-01-25T11:48:29.232604Z", "event": "node_end", "data": {"node": "finalize", "status": "ok", "final_kind": "reply"}}
